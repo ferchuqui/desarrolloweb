@@ -1,5 +1,24 @@
-header{
+/* header{
     
     background: pink;
     color: red;
+} */
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+h1{
+   
+    font-size: 40px;
+    line-height:1.5em;
+    font-style: italic;
+    letter-spacing: -.2px;
+    text-transform: capitalize
+}
+h2,
+h3,
+h4,
+h5,
+h6{
+   font-family: "Fjalla One", sans-serif;
+   font-weight: 400;
 }
