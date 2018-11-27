@@ -3,11 +3,51 @@
     background: pink;
     color: red;
 } */
+* {
+    margin: 0;
+    padding: 0;
+    }
+
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
 }
 header{
-    background: pink
+    background: pink;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 90px;
+
+}
+ol,
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.menu{
+    height:inherit;
+}
+header ol {
+    display: flex;
+    height: inherit;
+    
+    
+}
+header ol li{
+    height: inherit;
+    
+}
+header a {
+    padding: 0 10px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+figure{
+    margin:0;
+
 }
 
 h1{
@@ -39,16 +79,29 @@ h6{
     background-position-x: right;
 
 }
+.portfolio{
+    background: #fafafa;
+}
 .project{
-
+    margin: 10px 10px 15px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background: white;
+    display: inline-block;
+    
+    
 }
 .project-details{
    
     width: 500px;
-    margin: 0 auto;
+    
+    
+    
 }
 .project-img-wrapper{
     width: 500px;
+    display: inline-block;
 }
 .header{
     background-color: #1b2127;
