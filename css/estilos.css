@@ -56,7 +56,8 @@ h1{
     line-height:1.5em;
     font-style: italic;
     letter-spacing: -.2px;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
+    margin: 0;
 }
 h1 strong{
     color:red;
@@ -77,6 +78,8 @@ h6{
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 
 }
 .portfolio{
@@ -106,9 +109,22 @@ h6{
 .header{
     background-color: #1b2127;
     color: white;
+    align-items: center;
 }
 
 .header a{
     color: white;
     text-decoration: none;
+}
+footer{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    justify-content: space-between;
+
+}
+footer img {
+    vertical-align: middle;
 }
