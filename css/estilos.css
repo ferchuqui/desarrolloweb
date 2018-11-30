@@ -14,7 +14,7 @@ body{
 }
 header{
     /* align-items: center; */
-    background: pink;
+
     display: flex;
     height: 90px;
     justify-content: space-between;
@@ -82,13 +82,17 @@ h2{
 .hero{
     align-items: center;
     background-color: #1b2127;
-    background-image: url("../images/hero.jpg");
-    background-position-x: right;
-    background-repeat: no-repeat;
-    background-size: 500px 300px;
+    /* background-image: url("../images/hero.jpg"); */
+    /* background-position-x: right; */
+    /* background-repeat: no-repeat; */
+    /* background-size: 500px 300px; */
     display: flex;
-    height: 300px;
+    /* height: 300px; */
+    justify-content: space-between;
 
+}
+.hero-image{
+    object-fit: cover;
 }
 .portfolio{
     background: #fafafa;
@@ -249,4 +253,14 @@ footer img {
 }
 .form-email h3{
     font-family: 'Source Sans Pro', serif;
+}
+.container{
+    border: 1px solid red;
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    
 }
