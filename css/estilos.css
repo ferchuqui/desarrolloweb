@@ -13,18 +13,18 @@ body{
     margin: 0px;
 }
 header{
+    /* align-items: center; */
     background: pink;
     display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
     height: 90px;
+    justify-content: space-between;
 
 }
 ol,
 ul{
+    list-style: none;
     margin:0;
     padding:0;
-    list-style: none;
 }
 .menu{
     height:inherit;
@@ -40,10 +40,10 @@ header ol li{
     
 }
 header a {
-    padding: 0 10px;
-    height: inherit;
-    display: flex;
     align-items: center;
+    display: flex;
+    height: inherit;
+    padding: 0 10px;
 }
 figure{
     margin:0;
@@ -51,12 +51,12 @@ figure{
 }
 
 h1{
-   color: white;
+    /*text-transform: capitalize;*/
+    color: white;
     font-size: 40px;
-    line-height:1.5em;
     font-style: italic;
     letter-spacing: -.2px;
-    /*text-transform: capitalize;*/
+    line-height:1.5em;
     margin: 0;
 }
 h1 strong{
@@ -73,21 +73,21 @@ h6{
 }
 h2{
     color: #026fff;
-    text-transform: uppercase;
     font-family: 'Source Sans Pro', serif;
-    font-weight: bold;
     font-size: 24px;
+    font-weight: bold;
     margin-bottom: 40px;
+    text-transform: uppercase;
 }
 .hero{
-    height: 300px;
+    align-items: center;
     background-color: #1b2127;
     background-image: url("../images/hero.jpg");
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
     background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
     display: flex;
-    align-items: center;
+    height: 300px;
 
 }
 .portfolio{
@@ -96,13 +96,12 @@ h2{
 
 }
 .project{
-    margin-bottom: 15px;
-    padding: 20px;
+    background: white;
     border-radius: 10px;
     border: 1px solid gray;
-    background: white;
-    
     display: flex;
+    margin-bottom: 15px;
+    padding: 20px;
 
     
     
@@ -121,17 +120,17 @@ h2{
     margin: 10px 0;
 }
 .project-img-wrapper{
-    width: 350px;
     display: inline-block;
+    width: 350px;
 }
 project-date
 {
     margin: 10px 0;
 }
 .header{
+    align-items: center;
     background-color: #1b2127;
     color: white;
-    align-items: center;
 }
 
 .header a{
@@ -139,12 +138,12 @@ project-date
     text-decoration: none;
 }
 footer{
+    align-items: center;
     background-color: #1b2127;
     color: white;
     display: flex;
-    align-items: center;
-    vertical-align: center;
     justify-content: space-between;
+    vertical-align: center;
 
 }
 footer img {
@@ -152,29 +151,31 @@ footer img {
 }
 .event{
 
-    margin: 10px;
-    width: 480px;
+    background: #f4fbff;
     border-radius: 10px;
     flex-shrink: 0px;
+    margin: 10px;
     overflow: hidden;
-    background: #f4fbff;
+    width: 480px;
 }
 .event-list{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     
     
 }
 .event img{
-    width:480px;
     height: 200px;
     object-fit: cover;
+    width:480px;
 }
 .event-details{
-    margin: 20px 40px;
     background-color: white;
-    position: relative;
     margin-top: -40px;
+    margin: 20px 40px;
     padding: 20px;
+    position: relative;
     text-align: left;
 }
 .event-description{
@@ -182,14 +183,70 @@ footer img {
     
 }
 .event-url{
+    border-radius: 5px;
     border: 1px solid #056fff;
+    color: #056fff;
     padding: 5px 20px;
     text-decoration: none;
-    color: #056fff;
-    border-radius: 5px;
 }
 .event-list-title
 {
     margin-left: 20px;
 
+}
+.contact{
+    align-items: center;
+    background-color: #056fff;
+    color: white;
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+}
+.social{
+
+}
+.social-link{
+    background-size: 50px 50px;
+    /* border: 1px solid white; */
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+}
+.social-link.twitter{
+    background-image: url('../images/twitter.svg');
+    
+}
+.social-link.facebook{
+    background-image: url('../images/facebook.svg');
+}
+.social-link.github{
+    background-image: url('../images/github.svg');
+}
+.form-email input
+{
+        background-image: url('../images/envelope.svg');
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: 15px 15px;
+        border-color: gray;
+        border-radius: 5px;
+        border-style: solid;
+        padding: 10px 20px 10px 25px;
+
+}
+.form-email button{
+    display: block;
+    color: white;
+    margin-top: 10px;
+    background: transparent;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+
+    /* margin 10px auto 0; */
+}
+.form-email h3{
+    font-family: 'Source Sans Pro', serif;
 }
