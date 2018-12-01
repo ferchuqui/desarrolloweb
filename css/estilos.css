@@ -1,8 +1,4 @@
-/* header{
-    
-    background: pink;
-    color: red;
-} */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +9,7 @@ body{
     margin: 0px;
 }
 header{
-    /* align-items: center; */
+
 
     display: flex;
     height: 90px;
@@ -51,7 +47,7 @@ figure{
 }
 
 h1{
-    /*text-transform: capitalize;*/
+
     color: white;
     font-size: 40px;
     font-style: italic;
@@ -82,14 +78,8 @@ h2{
 .hero{
     align-items: center;
     background-color: #1b2127;
-    /* background-image: url("../images/hero.jpg"); */
-    /* background-position-x: right; */
-    /* background-repeat: no-repeat; */
-    /* background-size: 500px 300px; */
     display: flex;
-    /* height: 300px; */
     justify-content: space-between;
-
 }
 .hero-image{
     object-fit: cover;
@@ -161,6 +151,7 @@ footer img {
     margin: 10px;
     overflow: hidden;
     width: 480px;
+
 }
 .event-list{
     display: flex;
@@ -192,6 +183,9 @@ footer img {
     color: #056fff;
     padding: 5px 20px;
     text-decoration: none;
+    display: flex;
+    
+
 }
 .event-list-title
 {
@@ -211,11 +205,10 @@ footer img {
 }
 .social-link{
     background-size: 25px 25px;
-    /* border: 1px solid white; */
     display: inline-block;
     height: 25px;
-    width: 25px;
     margin: 0 10px;
+    width: 25px;
 }
 .social-link.twitter{
     background-image: url('../images/twitter.svg');
@@ -240,14 +233,14 @@ footer img {
 
 }
 .form-email button{
-    display: block;
-    color: white;
-    margin-top: 11px;
     background: transparent;
-    padding: 10px 0;
     border-radius: 5px;
-    width: 100px;
+    color: white;
+    display: block;
     margin-top: 10px;
+    margin-top: 11px;
+    padding: 10px 0;
+    width: 100px;
 
     /* margin 10px auto 0; */
 }
@@ -255,12 +248,12 @@ footer img {
     font-family: 'Source Sans Pro', serif;
 }
 .container{
-    border: 1px solid red;
-    width: 1000px;
-    margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
+
     align-items: inherit;
+    display: inherit;
     height: inherit;
+    justify-content: inherit;
+    margin: 0 auto;
+    width: 1000px;
     
 }
