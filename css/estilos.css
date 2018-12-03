@@ -43,6 +43,7 @@ header a {
 }
 figure{
     margin:0;
+    display: block;
 
 }
 
@@ -261,6 +262,7 @@ footer img {
 
     align-items: inherit;
     display: inherit;
+    flex: 1;
     height: inherit;
     justify-content: inherit;
     margin: 0 auto;
@@ -270,26 +272,30 @@ footer img {
 
 @media screen and (max-width:1024px)
 {
-    body{
-        /* border: 10px solid red; */
-    }
+    
 }
 
-@media screen and (max-width:768px)
+@media screen and (max-width:767px)
 {
-    body{
-        /* border: 10px solid green; */
+    .header{
+        display: block;
+        height: auto;
+        color: red;
+    }
+   
+    .header ol{
+        display: block;
+    }
+    .header ol li{
+        height: 50px;
+        text-align: center;
     }
 }
 @media screen and (max-width:480px)
 {
-    body{
-        /* border: 10px solid blue; */
-    }
+    
 }
 @media screen and (max-width:320px)
 {
-    body{
-        /* border: 10px solid yellow; */
-    }
+   
 }
