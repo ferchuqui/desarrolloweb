@@ -25,13 +25,13 @@ ul{
 .menu{
     height:inherit;
 }
-header ol {
+header ul {
     display: flex;
     height: inherit;
     
     
 }
-header ol li{
+header ul li{
     height: inherit;
     
 }
@@ -283,11 +283,17 @@ footer img {
         color: red;
     }
    
-    .header ol{
+    .header ul{
         display: block;
     }
-    .header ol li{
+    .header ul li{
         height: 50px;
+        text-align: center;
+    }
+    .header a{
+        justify-content: center;
+    }
+    .header .logo {
         text-align: center;
     }
 }
