@@ -113,15 +113,16 @@ h2{
 }
 .project-details{
    
-    width: 300px;
+    width: 45%;
+    /* display: flex; */
  
 }
 .project-course{
     margin: 10px 0;
 }
 .project-img-wrapper{
-    display: inline-block;
-    width: 350px;
+    /* display: inline-flex; */
+    width: 45%;
 }
 project-date
 {
@@ -296,11 +297,49 @@ footer img {
     .header .logo {
         text-align: center;
     }
+    .project{
+        display: block;
+    }
+    .project-img-wrapper{
+        /* display: inline-flex; */
+        width: auto;
+        text-align: center;
+
+    }
+    .project-img-wrapper img{
+        max-width: 100%;
+    }
+    .project-details{
+        width: auto;
+        text-align: center;
+        
+
+    }
+    .project-title{
+        font-size: 1,5 em;
+    }
+    .project-url{
+        font-size: 1 em;
+    }
+    .project-course{
+        font-size: 1 em;
+    }
+    .project-date{
+        font-size: 1 em;
+    }
+    .project-description{
+        font-size: 1em;
+    }
+
 }
 @media screen and (max-width:480px)
 {
     
 }
+.project-description{
+
+}
+
 @media screen and (max-width:320px)
 {
    
