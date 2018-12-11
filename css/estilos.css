@@ -25,28 +25,33 @@ ul{
 .menu{
     height:inherit;
 }
-header ol {
+header ul {
     display: flex;
     height: inherit;
-    
-    
+
+
 }
-header ol li{
+header ul li{
     height: inherit;
-    
+
 }
 header a {
     align-items: center;
-    display: flex;
+    display: inline-flex;
     height: inherit;
     padding: 0 10px;
 }
 figure{
     margin:0;
+    display: block;
+    float: left;
 
 }
-
 h1{
+  float: right;
+  margin-left: 30px;
+}
+h4{
 
     color: white;
     font-size: 40px;
@@ -54,8 +59,9 @@ h1{
     letter-spacing: -.2px;
     line-height:1.5em;
     margin: 0;
+    text-align: center;
 }
-h1 strong{
+h4 strong{
     color:red;
 }
 h1,
@@ -67,6 +73,7 @@ h6{
    font-family: "Fjalla One", sans-serif;
    font-weight: 400;
 }
+
 h2{
     color: #026fff;
     font-family: 'Source Sans Pro', serif;
@@ -97,8 +104,8 @@ h2{
     margin-bottom: 15px;
     padding: 20px;
 
-    
-    
+
+
 }
 .project-title{
     font-size: 30px;
@@ -106,9 +113,9 @@ h2{
 
 }
 .project-details{
-   
+
     width: 300px;
- 
+
 }
 .project-course{
     margin: 10px 0;
@@ -157,8 +164,8 @@ footer img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
-    
+
+
 }
 .event img{
     height: 200px;
@@ -175,7 +182,7 @@ footer img {
 }
 .event-description{
     text-align: left;
-    
+
 }
 .event-url{
     border-radius: 5px;
@@ -184,7 +191,7 @@ footer img {
     padding: 5px 20px;
     text-decoration: none;
     display: flex;
-    
+
 
 }
 .event-list-title
@@ -212,7 +219,7 @@ footer img {
 }
 .social-link.twitter{
     background-image: url('../images/twitter.svg');
-    
+
 }
 .social-link.facebook{
     background-image: url('../images/facebook.svg');
@@ -255,5 +262,5 @@ footer img {
     justify-content: inherit;
     margin: 0 auto;
     width: 1000px;
-    
+
 }
